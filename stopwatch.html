@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>
+		Stop Watch
+	</title>
+	<style>
+		body{
+			background-image: url(1.jpg);
+			background-size: cover;
+			text-align: center;
+		}
+		h1{
+			text-align: center;
+			background-color: white;
+			color: black;
+			width: 100px;
+			display: inline-block;
+			height: : 200px;
+		}
+		button{
+			width: 50px;
+			padding:5px;
+		}
+		#stopWatch{
+			margin-top: 200px;
+			margin-left: 100px;
+			height:200px;
+			border: white 2px solid;
+			width:500px;
+
+		}
+	</style>
+</head>>
+	<body>
+		<div id="stopWatch">
+		<div >
+			<!-- <h1>Created By:Sehrish Ishaq</h1> -->
+			<h1 id="min">0</h1>
+			<h1 id="sec">0</h1>
+			<h1 id="msec">0</h1><br>
+			<h1 style="display: inline-block; background-color: transparent; font-size: 25px;">Minute</h1>
+			<h1 style="display: inline-block; background-color: transparent; font-size: 25px;">Second</h1>
+			<h1 style="display: inline-block; background-color: transparent; font-size: 25px;">Milisecond</h1>
+		</div>
+		<div>
+			<button onclick="start()" id="disabled" >Start</button>
+			<button onclick="pause()" >Pause</button>
+			<button onclick="reset()" >Reset</button>
+		</div>
+	</div>
+			<script src="Stopwatch1.js"></script>
+	</body>
+</html>
